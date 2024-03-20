@@ -7,6 +7,14 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    int n;
+    scanf("%d",&n);
+
+    
+    int fac=1;
+    for(int i=2;i<=n;i++) fac*=i;
+
+    printf("%d\n%d",n*(n+1)/2,fac);
 
     return 0;
 }

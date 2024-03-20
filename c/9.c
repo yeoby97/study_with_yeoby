@@ -7,6 +7,12 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
+    int n;
+    scanf("%d",&n);
+    while(n <= 0){
+        printf("X\n");
+        scanf("%d",&n);
+    }
+    printf("%d",n*(n+1)/2);
     return 0;
 }

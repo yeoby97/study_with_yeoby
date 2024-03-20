@@ -7,6 +7,10 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
+    char a[3];
+    scanf("%s",a);
+    for(int i=sizeof(a)/sizeof(char)-1;i>=0;i--){
+        printf("%c",a[i]);
+    }
     return 0;
 }
